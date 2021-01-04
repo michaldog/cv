@@ -1,5 +1,3 @@
-# Michal Glowacki
-
 _Full-stack software developer and architect who is passionate about building scalable, maintainable, efficient and elegant solutions, and working with the latest technologies. Especially passionate about SOA and event-driven architecture, but also love working with frontend technologies. My project experience has been gained in the insurance, finance, health, risk management, sport, debt collection, tourist and media domains._ <br>
 
 [Email](mailto:michal.glowacki@gmail.com) / [LinkedIn](https://www.linkedin.com/in/michaldanielglowacki/) / [GitHub](https://github.com/michaldog/) / [Instagram](https://www.instagram.com/michal_glowacki/)
