@@ -12,12 +12,16 @@
 
   :root {
     --bg:       #F7F4EF;
-    --surface:  #EFEBE4;
+    --surface:  #E8E3DA;
     --ink:      #1A1713;
-    --ink-mid:  #5A5248;
-    --ink-mute: #9C8F83;
-    --rule:     #DDD5CB;
-    --accent:   #7A6455;
+    --ink-mid:  #3D362F;
+    --ink-mute: #7A6E63;
+    --rule:     #CEC5B9;
+    --accent:   #5C4A3A;
+    --sidebar-bg: #2C2520;
+    --sidebar-ink: #F0ECE6;
+    --sidebar-mute: #A89E93;
+    --sidebar-rule: #4A3F38;
     --serif:    'Cormorant Garamond', Georgia, serif;
     --sans:     'DM Sans', system-ui, sans-serif;
   }
@@ -46,14 +50,15 @@
   }
 
   .sidebar {
-    padding: 4rem 0 4rem;
+    padding: 4rem 2rem 4rem;
     position: sticky;
     top: 0;
     height: 100vh;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    border-right: 1px solid var(--rule);
+    background: var(--sidebar-bg);
+    margin-left: -2rem;
   }
 
   .sidebar-name {
@@ -63,25 +68,28 @@
     line-height: 1.2;
     letter-spacing: -0.01em;
     margin-bottom: 0.25rem;
+    color: var(--sidebar-ink);
   }
 
   .sidebar-role {
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.12em;
-    color: var(--ink-mute);
+    color: var(--sidebar-mute);
     margin-bottom: 2rem;
   }
 
   .sidebar-contact {
     list-style: none;
     font-size: 0.8rem;
-    color: var(--ink-mid);
+    color: var(--sidebar-mute);
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     margin-bottom: 2.5rem;
   }
+
+  .sidebar-contact a { color: var(--sidebar-ink); }
 
   .sidebar-contact li { display: flex; align-items: center; gap: 0.4rem; }
 
@@ -92,18 +100,18 @@
     gap: 0.2rem;
     margin-top: auto;
     padding-top: 2rem;
-    border-top: 1px solid var(--rule);
+    border-top: 1px solid var(--sidebar-rule);
   }
 
   .sidebar-nav a {
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: var(--ink-mute);
+    color: var(--sidebar-mute);
     transition: color 0.15s;
   }
 
-  .sidebar-nav a:hover { color: var(--ink); text-decoration: none; }
+  .sidebar-nav a:hover { color: var(--sidebar-ink); text-decoration: none; }
 
   .main { padding: 4rem 0; }
 
@@ -126,7 +134,8 @@
     font-size: 0.7rem;
     text-transform: uppercase;
     letter-spacing: 0.14em;
-    color: var(--ink-mute);
+    color: var(--accent);
+    font-weight: 500;
     margin-bottom: 1.75rem;
     display: flex;
     align-items: center;
@@ -221,9 +230,9 @@
     .sidebar {
       position: static;
       height: auto;
-      border-right: none;
-      border-bottom: 1px solid var(--rule);
-      padding: 2.5rem 0 2rem;
+      margin-left: -1.25rem;
+      margin-right: -1.25rem;
+      padding: 2.5rem 1.25rem 2rem;
     }
     .sidebar-nav { display: none; }
     .main { padding: 2.5rem 0; }
@@ -265,16 +274,16 @@
           <span class="role-date">Oct 2025 – Present</span>
         </div>
         <div class="role-company"><a href="https://ofiniti.com/" target="_blank">Ofiniti</a> · Oslo, Norway · Reporting to CTPO (Singapore)</div>
-        <p class="role-summary">One of the founding members of Ofiniti, which spun out of DNV to build <strong>FuelBoss</strong> — a mission-critical SaaS platform for maritime bunkering and fuel operations, serving several of the world's largest oil majors. Joined as the first developer, designed and built the majority of the backend and cloud infrastructure, and have since grown into the engineering leadership role.</p>
-        <p class="role-summary">Responsible for engineering strategy across 22 engineers structured around Team Topologies principles: three stream-aligned product teams, one enablers team, and an external platform/SRE team. Engineering teams span Norway, Poland, Vietnam, and Singapore, with two direct Engineering Managers. Operating with full day-to-day autonomy across timezones.</p>
+        <p class="role-summary">One of the founding members of Ofiniti, which spun out of DNV to build <strong>FuelBoss</strong> — a mission-critical SaaS platform for maritime bunkering and fuel operations, serving several of the world's largest oil majors. Joined as the first software engineer, designed and built the majority of the backend and cloud infrastructure, and have since grown into the engineering leadership role.</p>
+        <p class="role-summary">Responsible for engineering strategy across 22 engineers structured around Team Topologies principles: three stream-aligned product teams, one enablers team, and an external platform/SRE team. Engineering teams span Norway, Poland, Vietnam, Germany and Singapore, with two direct Engineering Managers. Operating with full day-to-day autonomy across timezones.</p>
         <ul class="role-bullets">
           <li>Driving technical strategy and architectural direction across a multi-tenant, event-sourced SOA platform handling real-time vessel scheduling, bunkering nominations, and high-value fuel transactions at enterprise scale</li>
           <li>Evolved the engineering organisation from a consultancy-based setup into a Team Topologies–structured model with dedicated stream-aligned teams, enabling faster flow and clearer ownership</li>
           <li>Scaled hiring and onboarding across timezones; established engineering culture, async collaboration norms, and EM capability in Poland and Singapore</li>
-          <li>Established delivery practices: branching strategy, PR standards, automated QA gates, and Theory of Constraints–informed pipeline improvements</li>
-          <li>Led architecture for cross-tenant data integrations with enterprise third parties including S&amp;P Global, Kongsberg, Jeppesen, Safebridge, and IMS Singapore</li>
+          <li>Led architecture for cross-tenant data integrations with major enterprise third parties across commodities, maritime logistics, and compliance</li>
+          <li>Championed adoption of AI-assisted engineering workflows — agentic coding, automated review, and spec-driven development — to raise throughput and consistency across teams</li>
         </ul>
-        <p class="role-stack">Stack: .NET/C#, PostgreSQL (Marten / event sourcing), Azure Service Bus, React/TypeScript, AKS, Terraform, GitOps, Azure Front Door</p>
+        <p class="role-stack">Stack: .NET/C#, PostgreSQL (NoSQL / Event sourcing), Azure, Terraform, React/TypeScript, AKS, GitOps, Claude Code</p>
       </div>
 
       <div class="role">
@@ -286,9 +295,13 @@
         <p class="role-summary">First dedicated engineering leadership role at Ofiniti — transitioning from founding engineer to organisational leader while remaining the primary architect.</p>
         <ul class="role-bullets">
           <li>Established the engineering foundation for a scaling organisation: coding standards, PR practices, QA automation, and structured team formation</li>
+          <li>Established delivery practices: CI/CD pipelines, feature flag management, automated QA gates, and Theory of Constraints–informed pipeline improvements</li>
           <li>Hired and onboarded Engineering Managers; built hiring criteria emphasising learning agility, distributed systems depth, and tradeoff reasoning</li>
+          <li>Built a culture of continuous improvement through structured retrospectives, blameless post-mortems, and iterative process refinement</li>
+          <li>Led the engineering workstream for ISO 27001 certification — defining technical controls, secure development practices, and infrastructure compliance for a platform handling sensitive commercial fuel transactions</li>
           <li>Continued hands-on architecture contributions while building out the leadership layer beneath</li>
         </ul>
+        <p class="role-stack">Stack: .NET/C#, PostgreSQL (NoSQL / Event sourcing), Azure, Terraform, React/TypeScript, AKS, GitOps, Claude Code</p>
       </div>
 
       <div class="role">
@@ -298,8 +311,8 @@
         </div>
         <div class="role-company"><a href="https://knirkefritt.no/" target="_blank">Knirkefritt AS</a> · Oslo, Norway · 6 years</div>
         <p class="role-summary">Co-founded an Oslo-based software consultancy. Ran the business alongside client delivery — architecture, development, and board responsibilities. Clients across media, financial services, and B2B SaaS.</p>
-        <p class="role-summary">Notable engagements: <strong>RiksTV</strong> (distributed systems for Norway's largest terrestrial TV platform), <strong>Convene</strong> (greenfield event-sourced insolvency platform on Azure), <strong>Hurtigruten</strong> (operational systems modernisation).</p>
-        <p class="role-stack">Core stack: C#, .NET Core, NServiceBus, PostgreSQL, Marten, Azure, AWS, Kubernetes, React/TypeScript</p>
+        <p class="role-summary">Notable engagements: RiksTV, Elkjøp, Convene and Hurtigruten.</p>
+        <p class="role-stack">Stack: C#, .NET Core, NServiceBus, PostgreSQL, Marten, Azure, AWS, Terraform, Pulumi, Kubernetes, React/TypeScript</p>
       </div>
 
       <div class="role">

@@ -22,10 +22,10 @@ Responsible for engineering strategy across 22 engineers structured around Team 
 - Driving technical strategy and architectural direction across a multi-tenant, event-sourced SOA platform handling real-time vessel scheduling, bunkering nominations, and high-value fuel transactions at enterprise scale
 - Evolved the engineering organisation from a consultancy-based setup into a Team Topologies–structured model with dedicated stream-aligned teams, enabling faster flow and clearer ownership
 - Scaled hiring and onboarding across timezones; established engineering culture, async collaboration norms, and EM capability in Poland and Singapore
-- Established delivery practices: branching strategy, PR standards, automated QA gates, and Theory of Constraints–informed pipeline improvements
-- Led architecture for cross-tenant data integrations with enterprise third parties including S&P Global, Kongsberg, Jeppesen, Safebridge, and IMS Singapore
+- Led architecture for cross-tenant data integrations with major enterprise third parties across commodities, maritime logistics, and compliance
+- Championed adoption of AI-assisted engineering workflows — agentic coding, automated review, and spec-driven development — to raise throughput and consistency across teams
 
-*Stack: .NET/C#, PostgreSQL (Marten / event sourcing), Azure Service Bus, React/TypeScript, AKS, Terraform, GitOps, Azure Front Door*
+*Stack: .NET/C#, PostgreSQL (NoSQL / event sourcing), Azure Service Bus, React/TypeScript, AKS, Terraform, GitOps, Azure Front Door*
 
 ### Head of Engineering — [Ofiniti](https://ofiniti.com/)
 *Oslo, Norway · Sep 2024 – Oct 2025 · Reporting to CTO (Oslo)*
@@ -33,7 +33,10 @@ Responsible for engineering strategy across 22 engineers structured around Team 
 First dedicated engineering leadership role at Ofiniti — transitioning from founding engineer to organisational leader while remaining the primary architect.
 
 - Established the engineering foundation for a scaling organisation: coding standards, PR practices, QA automation, and structured team formation
+- Established delivery practices: CI/CD pipelines, feature flag management, automated QA gates, and Theory of Constraints–informed pipeline improvements
 - Hired and onboarded Engineering Managers; built hiring criteria emphasising learning agility, distributed systems depth, and tradeoff reasoning
+- Built a culture of continuous improvement through structured retrospectives, blameless post-mortems, and iterative process refinement
+- Led the engineering workstream for ISO 27001 certification — defining technical controls, secure development practices, and infrastructure compliance for a platform handling sensitive commercial fuel transactions
 - Continued hands-on architecture contributions while building out the leadership layer beneath
 
 ### Senior Consultant, Co-founder & Board Member — [Knirkefritt AS](https://knirkefritt.no/)
