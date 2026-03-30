@@ -1,70 +1,68 @@
-_Full-stack software developer and architect who is passionate about building scalable, maintainable, efficient and elegant solutions, and working with the latest technologies. Especially passionate about SOA and event-driven architecture, but also love working with frontend technologies. My project experience has been gained in the insurance, finance, health, risk management, sport, debt collection, tourist and media domains._ <br>
+# Michal Glowacki
 
-[Email](mailto:michal.glowacki@gmail.com) / [LinkedIn](https://www.linkedin.com/in/michaldanielglowacki/) / [GitHub](https://github.com/michaldog/) / [Instagram](https://www.instagram.com/michal_glowacki/)
+*Director of Engineering · Oslo, Norway*
 
-## Employment
+michal.glowacki@gmail.com · +47 415 59 665 · [LinkedIn](https://www.linkedin.com/in/michaldanielglowacki/) · [GitHub](https://github.com/michaldog/)
 
-**Senior consultant / co-founder** @ [Knirkefritt](https://knirkefritt.no/) _(Sep 2018 - Present)_ <br>
-Co-founder of the Oslo based consultancy.
-<br><br>
+---
 
-**Senior consultant** @ [Webstep](https://webstep.no/) _(Feb 2011 - Aug 2018)_ <br>
-Employed as a senior consultant and involved in medium to large scale web and enterprise solutions, based mainly on the Microsoft.NET platform.
-<br><br>
+Engineering leader with a background as a full-stack developer and architect. I've spent the better part of two decades designing event-driven, service-oriented systems — from writing core backend infrastructure for a DNV spinout to leading the engineering organisation that grew around it. I believe great products come from teams with clear ownership, trust, and a shared commitment to quality. I stay close to the architecture and the code, and I care about making sure technical decisions and business outcomes stay aligned.
 
-**Senior consultant** @ [ITverket](https://itverket.no/) _(Oct 2005 - Jan 2011)_ <br>
-Employed as a senior consultant and involved in medium to large scale web and enterprise solutions, based mainly on the Microsoft.NET platform.
-<br><br>
+---
 
-**System developer** @ [N3Sport](https://n3sport.no/) _(Sep 2000 - Sep 2005)_ <br>
+## Experience
 
-<br>
+### Director of Engineering — [Ofiniti](https://ofiniti.com/)
+*Oslo, Norway · Oct 2025 – Present · Reporting to CTPO (Singapore)*
 
-## Recent projects
+One of the founding members of Ofiniti, which spun out of DNV to build **FuelBoss** — a mission-critical SaaS platform for maritime bunkering and fuel operations, serving several of the world's largest oil majors. Joined as the first developer, designed and built the majority of the backend and cloud infrastructure, and have since grown into the engineering leadership role.
 
-**Developer / Architect** @ [RiksTV](https://rikstv.no) _(Sep 2019 - Present)_<br>
-* Achievements...
-* **Technologies used:** C#, TypeScript, .NET Core, NServiceBus, AWS, Elasticsearch, PostgreSQL, Marten, Entity Framework, Auth0, Redis, Kubernetes, Docker, Rancher, React, Redux, GitLab, Octopus Deploy, Cake, gRPC, xUnit
+Responsible for engineering strategy across 22 engineers structured around Team Topologies principles: three stream-aligned product teams, one enablers team, and an external platform/SRE team. Engineering teams span Norway, Poland, Vietnam, and Singapore, with two direct Engineering Managers. Operating with full day-to-day autonomy across timezones.
 
-**Developer / Architect** @ [Hurtigruten](https://hurtigruten.no) _(Feb 2019 - Aug 2019)_<br>
-* Achievements...
-* **Technologies used:** C#, .NET, Azure, SQL Server, WinForms, Team City, Octopus Deploy, Cake, xUnit
+- Driving technical strategy and architectural direction across a multi-tenant, event-sourced SOA platform handling real-time vessel scheduling, bunkering nominations, and high-value fuel transactions at enterprise scale
+- Evolved the engineering organisation from a consultancy-based setup into a Team Topologies–structured model with dedicated stream-aligned teams, enabling faster flow and clearer ownership
+- Scaled hiring and onboarding across timezones; established engineering culture, async collaboration norms, and EM capability in Poland and Singapore
+- Established delivery practices: branching strategy, PR standards, automated QA gates, and Theory of Constraints–informed pipeline improvements
+- Led architecture for cross-tenant data integrations with enterprise third parties including S&P Global, Kongsberg, Jeppesen, Safebridge, and IMS Singapore
 
-**Developer / Architect** @ [Convene](https://convene.no) _(Apr 2018 - Jan 2019)_<br>
-* Achievements...
-* **Technologies used:** C#, TypeScript, .NET Core, NServiceBus, Azure, Terraform, SQL Server, PostgreSQL, Dapper, React, Redux, Marten, Azure DevOps, Octopus Deploy, Cake, xUnit
+*Stack: .NET/C#, PostgreSQL (Marten / event sourcing), Azure Service Bus, React/TypeScript, AKS, Terraform, GitOps, Azure Front Door*
 
-**Developer / Architect** @ [RiksTV](https://rikstv.no) _(Jun 2016 - Mar 2018)_<br>
-* Achievements...
-* **Technologies used:** C#, JavaScript, .NET, NServiceBus, AWS, Azure, SQL Server, Firebase, RavenDB, Entity Framework, Auth0, React, Redux, BitBucket, Team City, Octopus Deploy, Cake, xUnit
+### Head of Engineering — [Ofiniti](https://ofiniti.com/)
+*Oslo, Norway · Sep 2024 – Oct 2025 · Reporting to CTO (Oslo)*
 
-**Developer / Architect** @ [Kredinor](https://kredinor.no) _(Feb 2013 - May 2016)_<br>
-* Achievements...
-* **Technologies used:** C#, .NET, Neuron ESB, SQL Server, EventStore, Entity Framework, WCF, WPF, OData, TFS, PowerShell, MSTest, Quartz.NET, Log4Net, 
-<br><br>
+First dedicated engineering leadership role at Ofiniti — transitioning from founding engineer to organisational leader while remaining the primary architect.
+
+- Established the engineering foundation for a scaling organisation: coding standards, PR practices, QA automation, and structured team formation
+- Hired and onboarded Engineering Managers; built hiring criteria emphasising learning agility, distributed systems depth, and tradeoff reasoning
+- Continued hands-on architecture contributions while building out the leadership layer beneath
+
+### Senior Consultant, Co-founder & Board Member — [Knirkefritt AS](https://knirkefritt.no/)
+*Oslo, Norway · Sep 2018 – Aug 2024 · 6 years*
+
+Co-founded an Oslo-based software consultancy. Ran the business alongside client delivery — architecture, development, and board responsibilities. Clients across media, financial services, and B2B SaaS.
+
+Notable engagements: **RiksTV** (distributed systems for Norway's largest terrestrial TV platform), **Convene** (greenfield event-sourced insolvency platform on Azure), **Hurtigruten** (operational systems modernisation).
+
+*Core stack: C#, .NET Core, NServiceBus, PostgreSQL, Marten, Azure, AWS, Kubernetes, React/TypeScript*
+
+### Senior Consultant — [Webstep Fokus](https://webstep.no/)
+*Oslo, Norway · Feb 2011 – Aug 2018 · 7 years*
+
+Senior consultant and architect on large-scale enterprise solutions across insurance, finance, media, and the public sector. Long-term engagement at Kredinor (Norway's largest debt collection agency) — event-driven architecture, high-throughput processing, and ESB integration.
+
+### Earlier Career — ITverket / N3Sport
+*Oslo, Norway & New Zealand · 2000 – 2011*
+
+Senior .NET consultant at ITverket (clients: Sunnaas sykehus, Skuld, If Skadeforsikring, FNO) and software developer at N3Sport.
+
+---
 
 ## Education
 
-**Bachelor of Science** in Computer Science @ [University of Auckland](https://www.auckland.ac.nz/) _(1997 - 2000)_<br>
-**Secondary education** years 9 - 13 @ [James Hargest College](https://www.jameshargest.school.nz/) _(1992 - 1996)_
-<br><br>
-## Courses
+**BSc Computer Science** — [University of Auckland](https://www.auckland.ac.nz/), New Zealand *(1997 – 2000)*
 
-**Elasticsearch Engineer 1** by Elastic  _(2020)_ <br>
-**Advanced Distributed System Design with SOA & DDD** by Udi Dahan _(2017)_ <br>
-**Programming Languages** by University of Washington via Coursera _(2015)_ <br>
-**Implementing Domain Driven Design** by Vaughn Vernon _(2014)_ <br>
-**Advanced Distributed System Design with SOA & DDD** by Udi Dahan _(2013)_ <br>
-**Faster Sofware Delivery** by Dan North _(2012)_ <br>
-**TDD Master Class** by Roy Oshrove _(2009)_ 
-<br><br>
+---
+
 ## Languages
 
-**English**: Native <br>
-**Norwegian**: Full professional proficiency <br>
-**Polish**: Professional working proficiency
-<br><br>
-
-## Interests
-
-Mountain biking, cycling, snowboarding, cross country skiing, travelling, food.
+English — Native · Norwegian — Full professional · Polish — Professional working
